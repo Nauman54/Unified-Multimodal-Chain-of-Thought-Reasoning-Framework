@@ -1,0 +1,2 @@
+# Multimodal-Chain-of-Thought-Reasoning-via-Vision-Language-Fusion-Using-ViT-and-T5-on-ScienceQA
+Multimodal Chain-of-Thought reasoning framework for ScienceQA using Vision Transformer (ViT) and T5. The system performs image-text fusion, rationale generation, and answer prediction through a two-stage reasoning pipeline with embedding-level multimodal fusion, mixed precision training, and interpretable AI reasoning.
