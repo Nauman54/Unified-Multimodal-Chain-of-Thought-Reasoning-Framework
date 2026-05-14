@@ -1,4 +1,4 @@
-# Unified Multimodal Chain-of-Thought Reasoning Framework
+# Multimodal Chain-of-Thought Reasoning in Language Models
 
 ## Overview
 
