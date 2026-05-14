@@ -1,48 +1,78 @@
-# Multimodal-Chain-of-Thought-Reasoning-via-Vision-Language-Fusion-Using-ViT-and-T5-on-ScienceQA
-Multimodal Chain-of-Thought reasoning framework for ScienceQA using Vision Transformer (ViT) and T5. The system performs image-text fusion, rationale generation, and answer prediction through a two-stage reasoning pipeline with embedding-level multimodal fusion, mixed precision training, and interpretable AI reasoning.
+# Unified Multimodal Chain-of-Thought Reasoning Framework
 
-This project implements a lightweight multimodal fusion architecture inspired by:
+## Overview
 
-**Multimodal Chain-of-Thought Reasoning in Language Models**  
-https://arxiv.org/abs/2302.00923
+This repository presents a Unified Multimodal Chain-of-Thought (CoT) Reasoning Framework designed for interpretable reasoning evaluation across:
 
----
+- ScienceQA
+- A-OKVQA
 
-# Overview
+The framework combines:
 
-This project combines:
+- Large Language Models (LLMs)
+- Context-guided prompting
+- Few-shot reasoning
+- Probabilistic answer verification
+- Rationale consistency validation
+- Heuristic confidence scoring
 
-- Vision Transformer (ViT) for image understanding
-- T5 for language reasoning and generation
-- Embedding-level multimodal fusion
-- Two-stage Chain-of-Thought reasoning
-- ScienceQA benchmark dataset
-
-The system first generates a rationale (reasoning explanation) and then predicts the final answer using multimodal context.
+The system evaluates whether generated reasoning paths align with final predictions while improving interpretability and explainability of multimodal AI systems.
 
 ---
 
-# System Pipeline
+# Key Features
+
+## Multimodal Reasoning Pipeline
+- Textual context integration
+- Visual feature handling
+- Unified reasoning architecture
+
+## Chain-of-Thought Inference
+- Step-by-step rationale generation
+- Few-shot reasoning prompts
+- Context-aware answer prediction
+
+## Heuristic Verification Engine
+- Choice probability scoring
+- Loss-based answer ranking
+- Confidence estimation
+
+## Rationale Consistency Validation
+- Verifies whether generated explanations support predictions
+- Detects reasoning contradictions
+- Improves interpretability
+
+## Unified Evaluation System
+- Cross-domain testing on:
+  - ScienceQA
+  - A-OKVQA
+
+## Thesis/Research Visualization
+- Accuracy plots
+- Heatmaps
+- Donut charts
+- Radar charts
+- Validation tables
+
+---
+
+# System Architecture
+
+The framework follows a multi-stage reasoning pipeline:
 
 ```text
-Input Image + Question + Context + Options
-                │
-                ▼
-      Vision Transformer (ViT)
-                │
-        Visual Embeddings
-                │
-                ▼
-      Linear Projection Layer
-                │
-                ▼
-      T5 Text Embeddings
-                │
-                ▼
-      Embedding-Level Fusion
-                │
-                ▼
-      Stage 1: Rationale Generation
-                │
-                ▼
-      Stage 2: Final Answer Prediction
+Input Question
+      ↓
+Context Integration
+      ↓
+Few-Shot Prompt Construction
+      ↓
+LLM Reasoning Generation
+      ↓
+Probabilistic Choice Verification
+      ↓
+Rationale Consistency Validation
+      ↓
+Final Prediction
+      ↓
+Evaluation & Visualization
