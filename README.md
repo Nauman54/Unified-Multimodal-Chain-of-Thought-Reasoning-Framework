@@ -249,6 +249,12 @@ The framework is evaluated on:
 
 ---
 
+# 📚 Dataset Documentation
+
+- 📚 [Datasets](docs/DATASETS.md)
+
+---
+
 # 🎯 Applications
 
 - Explainable AI
