@@ -277,6 +277,16 @@ The framework is evaluated on:
 
 ---
 
+## 🚀 Quick Start
+
+1. Clone the repository.
+2. Install the dependencies.
+3. Launch Jupyter Notebook or Google Colab.
+4. Open the notebooks in the `notebooks/` directory.
+5. Follow the notebook instructions to reproduce the experiments.
+
+---
+
 # 📖 Citation
 
 If you find this work useful, please cite:
