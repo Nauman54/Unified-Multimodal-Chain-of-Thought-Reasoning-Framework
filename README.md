@@ -9,6 +9,7 @@
 ![BLIP2](https://img.shields.io/badge/BLIP--2-Vision--Language-purple)
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
+![Pipeline](assets/pipeline.PNG)
 
 ![Architecture](assets/architecture.png)
 
