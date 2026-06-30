@@ -247,11 +247,7 @@ The framework is evaluated on:
 - Real-world Knowledge
 - Scene Understanding
 
----
-
-# 📚 Dataset Documentation
-
-- 📚 [Datasets](docs/DATASETS.md)
+📚 [Datasets](docs/DATASETS.md)
 
 ---
 
