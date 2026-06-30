@@ -156,11 +156,11 @@ Unified-Multimodal-Chain-of-Thought-Reasoning-Framework/
 │   ├── unified_framework.ipynb
 │
 ├── outputs/
-│   ├── Accuracy_Comparison_Bar_Chart.png
-│   ├── Dataset-wise_Heatmap.png
-│   ├── Global_Success_Donut_Chart.png
-│   ├── Radar_Chart_for_Reasoning_Reliability.png
-│   ├── Unified_Model_Performance.png
+│   ├── Accuracy Comparison Bar Chart.png
+│   ├── Dataset-wise Heatmap.png
+│   ├── Global Success Donut Chart.png
+│   ├── Radar Chart for Reasoning Reliability.png
+│   ├── Unified Model Performance.png
 │
 ├── LICENSE
 │
