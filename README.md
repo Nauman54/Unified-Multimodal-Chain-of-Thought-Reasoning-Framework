@@ -139,18 +139,30 @@ This work extends the original **Multimodal-CoT** framework through several rese
 # 📂 Project Structure
 
 ```
-Multimodal-Chain-of-Thought-Reasoning/
+Unified-Multimodal-Chain-of-Thought-Reasoning-Framework/
 
 │
-├── notebooks/
-│   ├── Baseline.ipynb
-│   ├── Modernized_BLIP2.ipynb
+├── assets/
+│   ├── architecture.png
+│   ├── pipeline.PNG
+│   ├── sample_prediction.png
 │
-├── datasets/
+├── docs/
+│   ├── DATASETS.md
+│   ├── INSTALLATION.md
+│
+├── notebooks/
+│   ├── baseline_mm_cot.ipynb
+│   ├── unified_framework.ipynb
 │
 ├── outputs/
+│   ├── Accuracy_Comparison_Bar_Chart.png
+│   ├── Dataset-wise_Heatmap.png
+│   ├── Global_Success_Donut_Chart.png
+│   ├── Radar_Chart_for_Reasoning_Reliability.png
+│   ├── Unified_Model_Performance.png
 │
-├── figures/
+├── LICENSE
 │
 ├── README.md
 │
