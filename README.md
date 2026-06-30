@@ -10,7 +10,6 @@
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
 ![Pipeline](assets/pipeline.PNG)
-
 ![Architecture](assets/architecture.png)
 
 
